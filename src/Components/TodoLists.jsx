@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function TodoList() {
+function TodoLists () {
     const [tasks, setTasks] = useState([]);
     const [inputValue, setInputValue] = useState('');
 
@@ -49,4 +49,4 @@ function TodoList() {
     );
 }
 
-export default TodoList;
+export default TodoLists;

@@ -1,5 +1,5 @@
 import React from "react"
-import TodoList from "./Components/TodoList"
+import TodoList from "./Components/TodoLists"
 import './Components/Style.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <TodoList/>
+        <TodoLists/>
       </div>
     </>
   )
