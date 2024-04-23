@@ -1,0 +1,88 @@
+body {
+    background-color: #1d0436;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 32, 192);
+    flex-direction: column;
+    height: 75vh;
+    width: 32vw;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.task {
+    height: 60vh;
+    width: 30vw;
+   
+   
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 5px;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+    height: 4vh;
+    width: 24vw;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid #1d0436;
+}
+
+.button {
+    font-size: 15px;
+    height: 6vh;
+    padding: 5px;
+    width: 5vw;
+    color: #fff;
+    background-color: rgb(35, 2, 46);
+    outline: none;
+    border-top-left-radius: 30px;
+}
+
+h1 {
+color: #fff;
+text-align: center;
+justify-content: center;
+}
+
+h3 {
+    color: #fff;
+    background-color: #041134;
+    border-radius: 5px;
+    width: 30vw;
+    height: 5vh;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.del {
+    font-size: 13px;
+    height: 5vh;
+    width: 6vw;
+    background-color: #1d0436;
+    color: #fff;
+}
